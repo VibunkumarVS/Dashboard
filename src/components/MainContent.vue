@@ -1,6 +1,6 @@
 <template>
     <div class='mainContent_Container'>
-        <h3>My Dashboard 🐳</h3>
+        <h3>Dashboard</h3>
         <MainBoard />
         <Lists />
     </div>
