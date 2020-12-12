@@ -1,19 +1,21 @@
 <template>
-<div class="app">
-  <Header />
-  <div id="app">
+  <div class="app">
     <Sidebar />
-    <MainContent />
-    <AddItem/>
+    <div class="content">
+      <Header />
+      <div id="app">
+        <MainContent />
+      </div>
+    </div>
+      <AddItem />
   </div>
-</div>
 </template>
 
 <script>
 import Sidebar from "./components/Sidebar.vue";
 import MainContent from "./components/MainContent.vue";
 import Header from "./components/Header.vue";
-import AddItem from './components/AddItem.vue';
+import AddItem from "./components/AddItem.vue";
 
 export default {
   name: "App",
@@ -21,7 +23,7 @@ export default {
     Sidebar,
     MainContent,
     Header,
-    AddItem
+    AddItem,
   },
 };
 </script>
@@ -29,17 +31,23 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-.app{
-    height: 100%;
-
+.app {
+  height: 100%;
+  display: flex;
 }
+
+.content {
+  width: 50%;
+}
+
 #app {
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
-  height: calc(100% - 50px);
   display: flex;
+  height: calc(100% - 50px);
+  box-sizing: border-box;
 }
 
 html,

@@ -14,7 +14,7 @@ export default {
 <style scoped>
 .sidebar_container{
     background-color: blueviolet;
-    width: 10%;
+    width: 20%;
     height: 100%;
     color:white;
 }

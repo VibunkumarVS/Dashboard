@@ -26,7 +26,7 @@ export default {
     background-color: crimson;
     height: 100%;
     box-sizing: border-box;
-    width: 60%;
+    width: 100%;
     padding: 5px 10px;
 }
 </style>
