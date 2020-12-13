@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import Sidebar from "./components/Sidebar.vue";
+import Sidebar from "./components/Sidebar/Sidebar.vue";
 import MainContent from "./components/MainContent.vue";
 import Header from "./components/Header.vue";
 import AddItem from "./components/AddItem.vue";
@@ -30,23 +30,21 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 .app {
+    font-family: "Montserrat", sans-serif;
   height: 100%;
   display: flex;
 }
 
 .content {
-  width: 50%;
+  width: 55%;
 }
 
 #app {
-  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: white;
   display: flex;
-  height: calc(100% - 50px);
   box-sizing: border-box;
 }
 

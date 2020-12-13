@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <BalanceInfo 
+        <!-- <BalanceInfo 
             :amount='100'
             :amountLabel = "'TotalBalance'" />
         <BalanceInfo 
@@ -8,25 +8,33 @@
             :amountLabel = "'Expense'" />
         <BalanceInfo 
             :amount='20'
-            :amountLabel = "'Income'" />
+            :amountLabel = "'Income'" /> -->
+
+    <div class="sort">
+        <p> Newest </p>
+    </div>
+        <Lists />
+
     </div>
 </template>
 
 <script>
 
-import BalanceInfo from './BalanceInfo.vue';
+import Lists from './Lists.vue';
 
 export default {
     name : 'MainBoard',
     components : {
-        BalanceInfo
+        Lists
     }
 }
 </script>
 
 <style scoped>
 
-.container{
-    display: flex;
-}
+.sort{
+    padding: 0px 20px 0px 0px ;
+    width:fit-content;
+}   
+
 </style>
