@@ -13,6 +13,8 @@ export default {
 
 <style scoped>
 
+
+
 .container{
     height: 50px;
     width: 100%;

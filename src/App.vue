@@ -31,8 +31,17 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-.app {
-    font-family: "Montserrat", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+@font-face {
+    font-family: MarkPro;
+    src: url("assets/fonts/MARKPRO.OTF") format("opentype");
+}
+
+ .app {
+font-family:MarkPro;
   height: 100%;
   display: flex;
 }

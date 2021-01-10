@@ -22,8 +22,8 @@
       <div class="balance">$ 1,875.13</div>
 
       <div class="footer">
-          <div class="text">Total Amount $ 1500.34 is for 2 months
-              </div>
+          <!-- <div class="text">Total Amount $ 1500.34 is for 2 months
+              </div> -->
           </div>
     </div>
   </div>
