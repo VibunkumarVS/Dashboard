@@ -26,16 +26,28 @@ export default {
 </script>
 
 <style scoped>
+
+@font-face {
+    font-family: MarkPro;
+    src: url("MARKPRO.OTF") format("opentype");
+}
+
 .mainContent_Container {
   height: 100%;
   box-sizing: border-box;
   width: 100%;
   padding: 5px 50px;
+font-family:MarkPro
+
 }
 
 .ulCont{
   width: 350px;
   display: inline-block;
+  font-size: 16px;
+    font-weight: 600;
+
+  color: blue;
 }
 
 

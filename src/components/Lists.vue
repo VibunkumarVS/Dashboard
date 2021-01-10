@@ -68,6 +68,8 @@ export default {
 
 .container{
     margin-top: 40px;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 </style>
